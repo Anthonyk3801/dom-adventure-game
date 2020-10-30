@@ -22,7 +22,7 @@
      <input id="middle" type="button" value="middle" hidden="true" onclick="clicksM()">
    <input id="right" type="button" value="Right" hidden="true" onclick="clicksR()">
 
-   <!-- Open left door-->
+   <!-- Open left door from start-->
     <p id="text3" hidden="true">You walk in and there are a bunch of desks and books.</p>
     <p id="text4" hidden="true">There is a person sitting on the desk with their head down.</p>
     <p id="class" hidden="true">How will you get out of here?</p>
@@ -36,14 +36,14 @@
     <p id="nextRooms" hidden="true">You go down the steps and find yourself neer 2 more doors</p>
     <p id="pokePerson" hidden="true">You poked the person and they throw a desk at you</p>
 
-    <!-- picked left door-->
+    <!-- picked left door from basement-->
     <input type="button" id="left2" hidden="true" value="left" onclick="left()">
     <p id="dead2" hidden="true">You open the door and fall down a hole.</p>
-    <!-- picked right door-->
+    <!-- picked right door from basement-->
     <input type="button" id="right2" hidden="true" value="right" onclick="right()">
     <p id="path" hidden="true">You open the door and you enter another room but you can't see anything.</p>
     <input type="button" id="straight" hidden="true" value="Walk Straight" onclick="straight()">
-    <!-- will you open door-->
+    <!-- option to open door-->
     <p id="openDoor" hidden="true">You walk straight until you hit a door do you want to open it.</p>
     <input type="button" id="yes" hidden="true" value="Yes" onclick="yes()">
 
@@ -60,13 +60,13 @@
     <!-- no option-->
    <p id="no2" hidden="true">You decide not to open the door and are traped in the dark room</p>
 
-   <!-- Open middle door-->
+   <!-- Open middle door from start-->
    <p id="side" hidden="true">You open the door and it leads you outside.</p>
    <p id="outSide" hidden="true">All of a sudden a car comes out of nowere and hits you.</p>
    <p id="died" hidden="true"> You died restart the game.</p>
    <input id="end" hidden="true" type="button" value="Restart Game" onclick="restart()">
 
-   <!-- Open right door-->
+   <!-- Open right door from start-->
     <p id="principle" hidden="true">You open the door and your the principles office.</p>
     <p id="office" hidden="true">What will you do?</p>
     <input id="dow" hidden="true" type="button" value="Window" onclick="dow()">
@@ -74,6 +74,7 @@
     <input id="end" hidden="true" type="button" value="Restart Game" onclick="restart()">
     <input id="closet" hidden="true" type="button" value="Closet" onclick="closet()">
 
+    <!-- closet option-->
     <p id="closetText" hidden="true">You go into the closet and it reveals another room</p>
     <p id="closetText2" hidden="true">This room has a bed in it do you want to sleep in it</p>
     <input type="button" id="n" hidden="true" value="No" onclick="n()">

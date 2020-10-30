@@ -4,6 +4,7 @@
 
 /*document.querySelector('#game').textContent = 'DOM Adventure Game';*/
 
+/*starting game room*/
 function start(){
   document.getElementById("pokePerson").hidden = true;
   document.getElementById("end").hidden = true;
@@ -20,6 +21,7 @@ function start(){
   document.getElementById("right").hidden = false;
 }
 
+/*press spacebar to start game*/
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
       document.getElementById("start").hidden = true;
@@ -37,6 +39,7 @@ document.body.onkeyup = function(e){
     }
 }
 
+/*left room from starting room*/
 function clicksL(){
   document.getElementById("pokePerson").hidden = true;
   document.getElementById("end").hidden = true;
@@ -55,6 +58,7 @@ function clicksL(){
   document.getElementById("poke").hidden = false;
 }
 
+/*options to poke or move in the class room*/
   function next(){
   document.getElementById("pokePerson").hidden = true;
   document.getElementById("text3").hidden = true;
@@ -69,6 +73,7 @@ function clicksL(){
   document.getElementById("down").hidden = false;
 }
 
+/*move desk sceen*/
 function down(){
   document.getElementById("class").hidden = true;
   document.getElementById("start").hidden = true;
@@ -83,6 +88,23 @@ function down(){
   document.getElementById("right2").hidden = false;
 }
 
+/*walking to doors in basment*/
+function straight(){
+  document.getElementById("move").hidden = true;
+  document.getElementById("poke").hidden = true;
+  document.getElementById("pokePerson").hidden = true;
+  document.getElementById("moveDesk").hidden = true;
+  document.getElementById("down").hidden = true;
+  document.getElementById("nextRooms").hidden = true;
+  document.getElementById("left2").hidden = true;
+  document.getElementById("right2").hidden = true;
+  document.getElementById("straight").hidden = true;
+  document.getElementById("openDoor").hidden = false;
+  document.getElementById("yes").hidden = false;
+  document.getElementById("no").hidden = false;
+}
+
+/*basment doors*/
 function left(){
   document.getElementById("move").hidden = true;
   document.getElementById("poke").hidden = true;
@@ -108,21 +130,7 @@ function right(){
   document.getElementById("straight").hidden = false;
 }
 
-function straight(){
-  document.getElementById("move").hidden = true;
-  document.getElementById("poke").hidden = true;
-  document.getElementById("pokePerson").hidden = true;
-  document.getElementById("moveDesk").hidden = true;
-  document.getElementById("down").hidden = true;
-  document.getElementById("nextRooms").hidden = true;
-  document.getElementById("left2").hidden = true;
-  document.getElementById("right2").hidden = true;
-  document.getElementById("straight").hidden = true;
-  document.getElementById("openDoor").hidden = false;
-  document.getElementById("yes").hidden = false;
-  document.getElementById("no").hidden = false;
-}
-
+/*yes option for right basment door*/
 function yes(){
   document.getElementById("pokePerson").hidden = true;
   document.getElementById("moveDesk").hidden = true;
@@ -139,7 +147,6 @@ function yes(){
   document.getElementById("crate1").hidden = false;
   document.getElementById("crate2").hidden = false;
 }
-
 
 function crate1(){
   document.getElementById("crate1").hidden = true;
@@ -167,6 +174,7 @@ function crate2(){
   document.getElementById("end").hidden = false;
 }
 
+/*no option for right basment door*/
 function no(){
   document.getElementById("nextRooms").hidden = true;
   document.getElementById("left2").hidden = true;
@@ -192,7 +200,7 @@ function dead(){
   document.getElementById("end").hidden = false;
 }
 
-
+/*middle door in starting room*/
 function clicksM(){
   document.getElementById("middle").hidden = true;
   document.getElementById("left").hidden = true;
@@ -212,6 +220,7 @@ function clicksM(){
   document.getElementById("end").hidden = false;
 }
 
+/*restart button for death sceens*/
 function restart(){
   document.getElementById("bad").hidden = true;
   document.getElementById("good").hidden = true;
@@ -233,6 +242,7 @@ function restart(){
   document.getElementById("start").hidden = false;
 }
 
+/*right door in starting room*/
 function clicksR(){
   document.getElementById("end").hidden = true;
   document.getElementById("middle").hidden = true;
@@ -252,6 +262,7 @@ function clicksR(){
   document.getElementById("closet").hidden = false;
 }
 
+/*window option for principals room*/
 function dow(){
    document.getElementById("text3").hidden = true;
   document.getElementById("text4").hidden = true;
@@ -265,6 +276,7 @@ function dow(){
   document.getElementById("end").hidden = false;
 }
 
+/*closet option for the principals room*/
 function closet(){
   document.getElementById("principle").hidden = true;
   document.getElementById("office").hidden = true;
@@ -277,6 +289,7 @@ function closet(){
   document.getElementById("y").hidden = false;
 }
 
+/* yes and no option for bed room when closet is opened*/
 function n(){
   document.getElementById("closetText").hidden = true;
   document.getElementById("closetText2").hidden = true;
