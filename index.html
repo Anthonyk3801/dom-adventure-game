@@ -65,6 +65,24 @@
    <p id="outSide" hidden="true">All of a sudden a car comes out of nowere and hits you.</p>
    <p id="died" hidden="true"> You died restart the game.</p>
    <input id="end" hidden="true" type="button" value="Restart Game" onclick="restart()">
+
+   <!-- Open right door-->
+    <p id="principle" hidden="true">You open the door and your the principles office.</p>
+    <p id="office" hidden="true">What will you do?</p>
+    <input id="dow" hidden="true" type="button" value="Window" onclick="dow()">
+    <p id="windowText" hidden="true">You jump out of the window and fall to the ground</p>
+    <input id="end" hidden="true" type="button" value="Restart Game" onclick="restart()">
+    <input id="closet" hidden="true" type="button" value="Closet" onclick="closet()">
+
+    <p id="closetText" hidden="true">You go into the closet and it reveals another room</p>
+    <p id="closetText2" hidden="true">This room has a bed in it do you want to sleep in it</p>
+    <input type="button" id="n" hidden="true" value="No" onclick="n()">
+    <p id="bad" hidden="true">You chose not to sleep on the bed so a floor trap opened and you fell inside</p>
+    <input id="end" hidden="true" type="button" value="Restart Game" onclick="restart()">
+    <input type="button" id="y" hidden="true" value="Yes" onclick="y()">
+    <p id="good" hidden="true">You chose to sleep in the bed and wake up from the dream</p>
+    <p id="good" hidden="true">You win</p>
+    <input id="end" hidden="true" type="button" value="Restart Game" onclick="restart()">
     </main>
 
     <script src="assets/main.js"></script>

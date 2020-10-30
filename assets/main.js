@@ -232,3 +232,65 @@ function restart(){
   document.getElementById("windowText").hidden = true;
   document.getElementById("start").hidden = false;
 }
+
+function clicksR(){
+  document.getElementById("end").hidden = true;
+  document.getElementById("middle").hidden = true;
+  document.getElementById("left").hidden = true;
+  document.getElementById("right").hidden = true;
+  document.getElementById("school").hidden = true;
+  document.getElementById("text").hidden = true;
+  document.getElementById("moveDesk").hidden = true;
+  document.getElementById("text2").hidden = true;
+  document.getElementById("text3").hidden = true;
+  document.getElementById("text4").hidden = true;
+  document.getElementById("side").hidden = true;
+  document.getElementById("outSide").hidden = true;
+  document.getElementById("principle").hidden = false;
+  document.getElementById("office").hidden = false;
+  document.getElementById("dow").hidden = false;
+  document.getElementById("closet").hidden = false;
+}
+
+function dow(){
+   document.getElementById("text3").hidden = true;
+  document.getElementById("text4").hidden = true;
+  document.getElementById("side").hidden = true;
+  document.getElementById("outSide").hidden = true;
+  document.getElementById("principle").hidden = true;
+  document.getElementById("office").hidden = true;
+  document.getElementById("dow").hidden = true;
+  document.getElementById("closet").hidden = true;
+  document.getElementById("windowText").hidden = false;
+  document.getElementById("end").hidden = false;
+}
+
+function closet(){
+  document.getElementById("principle").hidden = true;
+  document.getElementById("office").hidden = true;
+  document.getElementById("dow").hidden = true;
+  document.getElementById("closet").hidden = true;
+  document.getElementById("windowText").hidden = true;
+  document.getElementById("closetText").hidden = false;
+  document.getElementById("closetText2").hidden = false;
+  document.getElementById("n").hidden = false;
+  document.getElementById("y").hidden = false;
+}
+
+function n(){
+  document.getElementById("closetText").hidden = true;
+  document.getElementById("closetText2").hidden = true;
+  document.getElementById("n").hidden = true;
+  document.getElementById("y").hidden = true;
+  document.getElementById("bad").hidden = false;
+  document.getElementById("end").hidden = false;
+}
+
+function y(){
+  document.getElementById("closetText").hidden = true;
+  document.getElementById("closetText2").hidden = true;
+  document.getElementById("n").hidden = true;
+  document.getElementById("y").hidden = true;
+  document.getElementById("good").hidden = false;
+  document.getElementById("end").hidden = false;
+}
