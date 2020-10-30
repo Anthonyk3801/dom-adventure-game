@@ -54,3 +54,17 @@ function clicksL(){
   document.getElementById("move").hidden = false;
   document.getElementById("poke").hidden = false;
 }
+
+function next(){
+  document.getElementById("pokePerson").hidden = true;
+  document.getElementById("text3").hidden = true;
+  document.getElementById("text4").hidden = true;
+  document.getElementById("class").hidden = true;
+  document.getElementById("start").hidden = true;
+  document.getElementById("Form").hidden = true;
+  document.getElementById("move").hidden = true;
+  document.getElementById("poke").hidden = true;
+  document.getElementById("pokePerson").hidden = true;
+  document.getElementById("moveDesk").hidden = false;
+  document.getElementById("down").hidden = false;
+}
