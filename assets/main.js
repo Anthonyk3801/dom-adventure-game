@@ -191,3 +191,44 @@ function dead(){
   document.getElementById("pokePerson").hidden = false;
   document.getElementById("end").hidden = false;
 }
+
+
+function clicksM(){
+  document.getElementById("middle").hidden = true;
+  document.getElementById("left").hidden = true;
+  document.getElementById("middle").hidden = true;
+  document.getElementById("right").hidden = true;
+  document.getElementById("school").hidden = true;
+  document.getElementById("text").hidden = true;
+  document.getElementById("text2").hidden = true;
+  document.getElementById("text3").hidden = true;
+  document.getElementById("text4").hidden = true;
+  document.getElementById("Form").hidden = true;
+  document.getElementById("move").hidden = true;
+  document.getElementById("poke").hidden = true;
+  document.getElementById("moveDesk").hidden = true;
+  document.getElementById("side").hidden = false;
+  document.getElementById("outSide").hidden = false;
+  document.getElementById("end").hidden = false;
+}
+
+function restart(){
+  document.getElementById("bad").hidden = true;
+  document.getElementById("good").hidden = true;
+  document.getElementById("pokePerson").hidden = true;
+  document.getElementById("end").hidden = true;
+  document.getElementById("side").hidden = true;
+  document.getElementById("outSide").hidden = true;
+  document.getElementById("Form").hidden = true;
+  document.getElementById("moveDesk").hidden = true;
+  document.getElementById("move").hidden = true;
+  document.getElementById("poke").hidden = true;
+  document.getElementById("dead2").hidden = true;
+  document.getElementById("no2").hidden = true;
+  document.getElementById("num1").hidden = true;
+  document.getElementById("num2").hidden = true;
+  document.getElementById("num3").hidden = true;
+  document.getElementById("dow").hidden = true;
+  document.getElementById("windowText").hidden = true;
+  document.getElementById("start").hidden = false;
+}
