@@ -82,3 +82,29 @@ function down(){
   document.getElementById("left2").hidden = false;
   document.getElementById("right2").hidden = false;
 }
+
+function left(){
+  document.getElementById("move").hidden = true;
+  document.getElementById("poke").hidden = true;
+  document.getElementById("pokePerson").hidden = true;
+  document.getElementById("moveDesk").hidden = true;
+  document.getElementById("down").hidden = true;
+  document.getElementById("nextRooms").hidden = true;
+  document.getElementById("left2").hidden = true;
+  document.getElementById("right2").hidden = true;
+  document.getElementById("dead2").hidden = false;
+  document.getElementById("end").hidden = false;
+}
+
+function right(){
+  document.getElementById("move").hidden = true;
+  document.getElementById("poke").hidden = true;
+  document.getElementById("pokePerson").hidden = true;
+  document.getElementById("moveDesk").hidden = true;
+  document.getElementById("down").hidden = true;
+  document.getElementById("nextRooms").hidden = true;
+  document.getElementById("left2").hidden = true;
+  document.getElementById("right2").hidden = true;
+  document.getElementById("straight").hidden = false;
+  document.getElementById("yes").hidden = false;
+  document.getElementById("no").hidden = false;
