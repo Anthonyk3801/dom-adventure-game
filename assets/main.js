@@ -12,6 +12,7 @@ function start(){
   document.getElementById("move").hidden = true;
   document.getElementById("poke").hidden = true;
   document.getElementById("moveDesk").hidden = true;
+  document.getElementById("adventure").hidden = true;
   document.getElementById("school").hidden = false;
   document.getElementById("text").hidden = false;
   document.getElementById("text2").hidden = false;
