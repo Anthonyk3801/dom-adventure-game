@@ -10,18 +10,20 @@
   </head>
   <body>
     <main id="game">
+      <div id="countdown"></div>
       <p id="adventure">DOM Adventure Game</p>
-      <input id="start" type="button" value="Start Game" onclick="start()">
+      <input hidden id="start" type="button" value="Start"
+        onclick="start()"/>
 
       <!-- Game is starting -->
       <p id="school" hidden="true"> You wake up in a empty school.</p>
-     <p id="text" hidden="true">There is are doors to your left and right but there is also a door in front of you down the hall.</p>
-     <p id="text2" hidden="true">Which way do you want to go?</p>
+      <p id="text" hidden="true">There is are doors to your left and right but there is also a door in front of you down the hall.</p>
+      <p id="text2" hidden="true">Which way do you want to go?</p>
 
      <!-- Left, Right and Middle buttons -->
      <input id="left" type="button" value="Left" hidden="true" onclick="clicksL()">
      <input id="middle" type="button" value="middle" hidden="true" onclick="clicksM()">
-   <input id="right" type="button" value="Right" hidden="true" onclick="clicksR()">
+     <input id="right" type="button" value="Right" hidden="true" onclick="clicksR()">
 
    <!-- Open left door from start-->
     <p id="text3" hidden="true">You walk in and there are a bunch of desks and books.</p>

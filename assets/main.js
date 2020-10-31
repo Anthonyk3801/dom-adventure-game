@@ -4,6 +4,21 @@
 
 /*document.querySelector('#game').textContent = 'DOM Adventure Game';*/
 
+var counter = 4;
+
+var countDowner = setInterval(function(){
+  counter--
+  document.getElementById("countdown").textContent=counter
+    if(counter == 0){
+
+      clearInterval(countDowner)
+      document.getElementById("start").hidden=false;
+      document.getElementById("countdown").textContent=""
+
+    }
+
+},1000)
+
 /*starting game room*/
 function start(){
   document.getElementById("pokePerson").hidden = true;
